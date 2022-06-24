@@ -112,11 +112,16 @@ $breakpoints: (xs: (min: calcEM($xs),
 
 // //////////////////////////////
 // RESPONSIVE CLAMP
+// $property = the property you want to clamp
+// $minsize = the minimum size of the property in rem
+// $maxsize = the maximum size of the property in rem
+// $minwidth = the min viewport width in pixels
+// $maxwidth = the max viewport width in pixels
 // //////////////////////////////
 
 @mixin getclamp($property, $minsize, $maxsize, $minwidth, $maxwidth) {
 
-    // convert vp widths to rem
+    // convert vp widths to rem - assumes 1rem = 10px
     $minw: math.div($minwidth, 10);
     $maxw: math.div($maxwidth, 10);
 
@@ -126,3 +131,7 @@ $breakpoints: (xs: (min: calcEM($xs),
 
     #{$property}: clamp($minsize * 1rem, ($yint * 1rem) + calc($slope * 100vw), $maxsize * 1rem);
 }
+// Example use: 
+// @include getclamp(font-size,1,3,375,2000);
+
+// @LeonLonsdale
