@@ -5,33 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+<section class="card">
+<header class="card__header">
+  <img src="images/illustration-hero.svg" alt="header image" class="card__header-image">
+</header>
 
-  Order Summary
+<main class="card__main">
+  <h1 class="card__title">Order Summary</h1>
+  <p class="card__text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you want!</p>
+  <figure class="card__pricing">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <img src="images/icon-music.svg" alt="music icon" class="card__pricing-icon">
+    <div class="card__pricing-text">
+      <h2 class="card__pricing-plan">Annual Plan</h2>
+      <p class="card__pricing-price">$59.99/year</p>
+    </div>
+    <a href="#" class="card__pricing-change">Change</a>
+  </figure>
 
-  Annual Plan
-  $59.99/year
+  <button class="btn">Proceed to Payment</button>
+  <a href="#" class="card__cancel-order">Cancel Order</a>
+</main>
 
-  Change
 
-  Proceed to Payment
-  Cancel Order
+
+</section>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.twitter.com/LeonLonsdale">SenNyin</a>.
   </div>
 </body>
 </html>
