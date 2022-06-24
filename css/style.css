@@ -164,12 +164,12 @@ body {
   background-position: top;
   background-repeat: x;
 }
+
 @media only screen and (max-width: 23.425em) {
   body {
     background-image: url(../images/pattern-background-mobile.svg);
   }
 }
-
 p {
   font-size: 1.6rem;
   text-align: center;
@@ -182,6 +182,7 @@ p {
   position: absolute;
   bottom: 5px;
 }
+
 .attribution a {
   color: hsl(228deg, 45%, 44%);
 }
@@ -223,11 +224,13 @@ p {
   font-size: clamp(2.2rem, 1.627480916rem + 1.5267175573vw, 2.8rem);
   font-weight: 900;
   color: hsl(223deg, 47%, 23%);
+  margin-bottom: 0.3rem;
 }
 .card__text {
   font-weight: 400;
   line-height: 2.5rem;
   font-size: clamp(1.5rem, 1.4045801527rem + 0.2544529262vw, 1.6rem);
+  margin-bottom: 0.3rem;
 }
 .card__pricing {
   display: flex;
