@@ -240,8 +240,8 @@ p {
   background-color: hsl(225deg, 100%, 98%);
   width: 100%;
   border-radius: 1rem;
-  padding: 2rem;
-  margin-bottom: 1rem;
+  padding: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 .card__pricing-icon {
   margin-right: 1rem;
@@ -287,7 +287,7 @@ p {
   font-size: clamp(1.3rem, 1.2045801527rem + 0.2544529262vw, 1.4rem);
   display: block;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.8rem;
   background-color: hsl(245deg, 75%, 52%);
   border-radius: 1rem;
   color: hsl(225deg, 100%, 98%);
