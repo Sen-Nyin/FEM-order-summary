@@ -7,7 +7,7 @@
     overflow: hidden;
     box-shadow: 0 2rem 2rem rgba(a.$desaturated-blue, .2);
 
-    @include a.breakpoint(xs, max) {
+    @include a.breakpoint(768, max) {
         max-width: 32.7rem;
     }
 
@@ -25,7 +25,7 @@
         @include a.flex(column, 0, 0);
         gap: 1.7rem;
 
-        @include a.breakpoint(xs, max) {
+        @include a.breakpoint(768, max) {
             padding: 3.2rem 2.4rem;
             gap: 1.6rem;
         }

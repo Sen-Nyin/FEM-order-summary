@@ -183,7 +183,7 @@ p {
   overflow: hidden;
   box-shadow: 0 2rem 2rem rgba(114, 128, 167, 0.2);
 }
-@media only screen and (max-width: 23.425em) {
+@media only screen and (max-width: 48em) {
   .card {
     max-width: 32.7rem;
   }
@@ -203,7 +203,7 @@ p {
   align-items: center;
   gap: 1.7rem;
 }
-@media only screen and (max-width: 23.425em) {
+@media only screen and (max-width: 48em) {
   .card__main {
     padding: 3.2rem 2.4rem;
     gap: 1.6rem;
